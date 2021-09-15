@@ -1,0 +1,205 @@
+/*1024-1180*/
+@media screen and (max-width: 1180px) {
+    #container {
+        max-width: 983px;
+    }
+
+    #box {
+        max-width: 400px;
+    }
+
+    .form-input input {
+        width: 385px;
+    }
+
+    #container-image img {
+        width: 450px;
+    }
+}
+
+
+/*768-1023*/
+@media screen and (max-width: 1023px) {
+     #container {
+         max-width: 738px;
+         padding: 27px 0 100px;
+     }
+
+    #title {
+        margin-bottom: 70px;
+    }
+
+    #box {
+        max-width: 345px;
+    }
+
+    #box-title {
+        font-size: 28px;
+    }
+
+    #box-text {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .form-input input {
+        width: 325px;
+    }
+
+    #container-image img {
+        width: 350px;
+    }
+
+
+    #agreed {
+        margin-bottom: 30px;
+    }
+
+    #account {
+        margin-top: 30px;
+    }
+}
+
+/*425-767*/
+@media screen and (max-width: 767px) {
+    body {
+        background: #FFFFFB;
+    }
+    #container {
+        max-width: 395px;
+    }
+
+    #title {
+        margin-bottom: 60px;
+    }
+
+    #section {
+        flex-direction: column;
+    }
+
+    #box {
+        order: 2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #box-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    #box-text {
+        margin-bottom: 45px;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    #container-image {
+        order: 1;
+        margin-bottom: 30px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    #agreed a {
+        font-size: 13px;
+        margin-left: 5px;
+    }
+
+    #account a {
+        font-size: 13px;
+    }
+}
+
+
+
+/*375-424*/
+@media screen and (max-width: 424px) {
+    #container {
+        max-width: 340px;
+    }
+
+    #title {
+        margin-bottom: 50px;
+    }
+
+    #box-title {
+        font-size: 28px;
+    }
+
+
+    #container-image img {
+        width: 300px;
+    }
+
+    #box {
+        max-width: 290px;
+    }
+
+    button {
+        line-height: 20px;
+    }
+
+
+    .form-input input {
+        width: 285px;
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media screen and (max-width: 374px) {
+    #container {
+        max-width: 290px;
+    }
+
+    #title {
+        font-size: 30px;
+        margin-bottom: 45px;
+    }
+
+    #title span {
+        font-size: 42px;
+    }
+
+    #container-image img {
+        width: 285px;
+    }
+
+    #box-title {
+        font-size: 25px;
+    }
+
+    #box {
+        max-width: 260px;
+    }
+
+    div label span {
+        font-size: 15px;
+    }
+
+    .form-input input {
+        width: 255px;
+        font-size: 18px;
+    }
+
+
+    button {
+        width: 195px;
+        padding: 20px;
+    }
+}

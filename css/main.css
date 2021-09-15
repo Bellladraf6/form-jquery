@@ -1,0 +1,134 @@
+@font-face {
+    font-family: NunitoBold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+@font-face {
+    font-family: NunitoExtraBold;
+    src: url("../fonts/Nunito-ExtraBold.ttf");
+}
+
+body {
+    font-family: "NunitoBold", sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #FFFFFB 50%, #F8F8FA 50%)
+}
+
+#container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 27px 0 191px;
+}
+
+#title {
+    font-family: NunitoExtraBold, sans-serif;/*здесь мне кажется у текста шрифт именно ExtraBold*/
+    text-align: center;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 112px;
+}
+
+#title span {
+    color: #D72F3F;
+    font-size: 49px;
+}
+
+#section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box {
+    max-width: 496px;
+}
+
+#box-title {
+    font-size: 36px;
+    line-height: 49px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+
+#box-text {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 42px;
+}
+
+div label span {
+    display: block;
+    font-size: 16px;
+    line-height: 27px;
+    color: #C6C6C4;
+}
+
+.form-input input {
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    width: 452px;
+    box-sizing: border-box;
+    padding: 5px 0;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    font-family: 'NunitoBold', sans-serif;
+    margin-bottom: 20px;
+    outline: none;
+    background: transparent;
+}
+
+
+#agreed {
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+#agreed a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    margin-left: 10px;
+}
+
+#agreed input {
+    margin: 0;
+}
+
+
+#button {
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    width: 210px;
+    background: #DD3142;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 22px;
+    box-sizing: border-box;
+}
+
+
+#account {
+    text-align: center;
+    margin-top: 44px;
+}
+
+#account a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+}
+
